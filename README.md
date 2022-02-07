@@ -5,6 +5,6 @@
 ## Question 2: 01101100 01100101 01110100 01110011 00100000 01110100 01110010 01111001 00100000 01110011 01101111 01101101 01100101 00100000 01100010 01101001 01101110 01100001 01110010 01111001 00100000 01101111 01110101 01110100 00100001
 *Does the series of 1’s and 0’s give it away? This is binary, the “language of computers” as journalists correctly, but all too frequently, point out for the benefit of those not terribly technologically inclined.
 I made use of [RapidTables’s Binary to Text Translator.](https://www.rapidtables.com/convert/number/binary-to-ascii.html)for this question, which worked a treat.*
-!(/binary.png)
+!(https://github.com/y4ssr/c4ptur3-th3-fl4g/blob/main/binary.png)
 ### Flag: lets try some binary out!
 
