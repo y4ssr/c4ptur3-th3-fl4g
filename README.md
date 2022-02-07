@@ -55,3 +55,14 @@ I used [browserling’s Morse code decoder](https://www.browserling.com/tools/mo
 
 ![Example](https://github.com/y4ssr/c4ptur3-th3-fl4g/blob/main/morse.png?raw=true )
 ### Flag: telecommunication encoding
+
+## Question 9: 85 110 112 97 99 107 32 116 104 105 115 32 66 67 68
+*This is much the same as the previous translation and decoding questions (using hex and base64 and whatnot) but instead this time we’re using good ol’ reliable base 10, 0–9, what’s known as BCD, or Binary Coded Decimal, where each number represents its value in binary, which is then converted to ASCII and spat out as a series of letters and numbers. Regardless, Base10 is what we’re used to, great stuff.
+I returned used [Cryptii’s](https://cryptii.com/pipes/text-decimal) decoder for this task*
+
+![Example](https://github.com/y4ssr/c4ptur3-th3-fl4g/blob/main/crypti.png?raw=true )
+### Flag: Unpack this BCD
+
+## Question 10: LS0tLS0gLi0tLS0gLi0tLS0gLS0tLS0gLS0tLS0gLi0tLS0gLi0tLS0gLS0tLS0KLS0t……….
+*This question was designed to make sure you were paying attention, the original message was in Base 64, as one can tell from the mixture of upper and lower case characters. this decoded into Morse, which itself decoded into Binary, which then decoded into a ROT47 cipher, which THEN decoded to decimal, and FINALLY spat out…*
+### Flag: Let’s make this a bit trickier…
