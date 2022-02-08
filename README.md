@@ -99,5 +99,36 @@ Websites such as md5decrypt work especially well for this as the hashes should a
 ### Flag: The OG
 
 ## [Task 3] Spectrograms
+*According to Wikipedia, A spectrogram is “a visual representation of the spectrum of frequencies of a signal as it varies with time. When applied to an audio signal, spectrograms are sometimes called sonographs, voiceprints, or voicegrams. When the data is represented in a 3D plot they may be called waterfalls.”*
 
+## Question 1: secretaudio.wav — download the file
+*To do this question I recommend already having installed an audio editing program, my personal recommendation (as well as the recommendation of the author) is Audacity. You can install it off the [website](https://www.audacityteam.org/download/) or, if you are so inclined, use the command:*
+$ sudo apt-get install audacity
+Once installed, open the file given to you (called secretaudio.wav) and change the view from waveform to spectrogram in the menu with the downwards facing black triangle off to the side, like so:
 
+![Example](https://github.com/y4ssr/c4ptur3-th3-fl4g/blob/main/images/audio.png?raw=true )
+
+### Flag: Super Secret Message
+
+##  [Task 4] Steganography
+*Steganography is “The process of hiding a message or file within another message or file”*
+
+## Question 1: stegosteg.jpg — Decode the image to reveal the answer.
+*I used [Tfutureboy.us’s steganography decoder](https://futureboy.us/stegano/decinput.html) on the image, as you can see below:*
+
+![Example](https://github.com/y4ssr/c4ptur3-th3-fl4g/blob/main/images/stegosteg.png?raw=true )
+
+![Example](https://github.com/y4ssr/c4ptur3-th3-fl4g/blob/main/images/steganodecoder.png?raw=true )
+
+### Flag: SpaghettiSteg
+
+##  [Task 5] Security through Obscurity
+*Finally, I solved this section in a manner that I don’t believe was intended, but hey, thats wha hacking is isn’t it?.
+I opened up the file in a text editor, scrolled to the bottom, and found the two flags in plaintext*
+
+### Flag1: hackerchat.png
+
+### Flag2: AHH_YOU_FOUND_ME!
+
+## Conclusion
+*This CTF Is pretty good, and works an absolute treat for beginners, I’d recommend it to my nan, if she ever wanted to become a 1337 h4x0r.*
