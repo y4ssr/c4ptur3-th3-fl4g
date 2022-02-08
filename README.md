@@ -66,3 +66,13 @@ I returned used [Cryptii’s](https://cryptii.com/pipes/text-decimal) decoder fo
 ## Question 10: LS0tLS0gLi0tLS0gLi0tLS0gLS0tLS0gLS0tLS0gLi0tLS0gLi0tLS0gLS0tLS0KLS0t……….
 *This question was designed to make sure you were paying attention, the original message was in Base 64, as one can tell from the mixture of upper and lower case characters. this decoded into Morse, which itself decoded into Binary, which then decoded into a ROT47 cipher, which THEN decoded to decimal, and FINALLY spat out…*
 ### Flag: Let’s make this a bit trickier…
+
+## [Task 2] Hashes
+Websites such as md5decrypt work especially well for this as the hashes should already be stored in their databases.
+## Question 1: 39d4a2ba07e44421c9bedd54dc4e1182
+*This hash had the hint “This method of encryption is no longer considered ‘secure’. It’s an MD, but which one?”, which told me that it was encoded using Message Digest 2, the simplest (read: most insecure) in the series of MD hashes that provide 128-bit values*
+
+### Flag: MDwhat?
+
+## Question 2: e0418e7c6c2f630c71b2acabbcf8a2fb
+*The hint here is “Better than MD2, but not as good as MD5”, which means it’s using MD4.*
