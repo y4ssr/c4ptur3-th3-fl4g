@@ -76,3 +76,28 @@ Websites such as md5decrypt work especially well for this as the hashes should a
 
 ## Question 2: e0418e7c6c2f630c71b2acabbcf8a2fb
 *The hint here is “Better than MD2, but not as good as MD5”, which means it’s using MD4.*
+### Flag: digest the message algorithm
+
+## Question 3: efbd448a935421a54dda43da43a701e1
+*This question didn’t have a hint, however, I reasoned that seen as how the last two hashes were both MD and went up in difficulty to crack, logically this next hash must be MD5, I was correct*
+### Flag: 128-bit of delicious hash values
+
+## Question 4: 11FE61CE0639AC2A1E815D62D7DEEC53
+*The hint here is “SoftMicro”, Which fairly transparently is a reference to Microsoft. After a bit of research I discovered that Microsoft has a somewhat proprietary hashing algorithm called NTLM, or New Technology (Microsoft’s Kernel) LAN Manager*
+### Flag: Microsoft has encryption?
+
+## Question 5: a361f05487b879f25cc4d7d7fae3c7442e7849ed15c94010b389faafaf8763f0dd022e52364027283d55dcb10974b09e7937f901584c092da65a14d1aa8dc4d8
+*The hint was “My heart goes SHAlalalala SHA lala 512 times!”. The capitalistion of the word SHA plus the mention of the number 512 means that this is a SHA512 Hash, (SHA for Secure Hashing Algorithm, and 512 for the digest, or hash value size in bits).*
+### Flag: 1024 bit blocks!
+
+## Question 6: d48a2f790f7294a4ecbac10b99a1a4271cdc67fff7246a314297f2bca2aaa71f
+*There was no hint here, once again. I thought, however, maybe seen as how the last hash was a SHA512, maybe this is a SHA hash of half the digest of the previous one? This was correct, so I used the SHA256 Decryption algorithm on it.*
+### Flag: Commonly used in Blockchain
+
+## Question 7: a34e50c78f67d3ec5d0479cde1406c6f82ff6cd0
+*The hint here was “The First SHA”, Must be SHA-1*
+### Flag: The OG
+
+## [Task 3] Spectrograms
+
+
